@@ -7,8 +7,8 @@ import numpy as np
 # تنظیمات
 # ---------------------------
 image_paths = {
-    "satellite": "F:/IDM/satellite_reconstructed_map.png",
-    "thermal": "F:/IDM/thermal_reconstructed_map.png"
+    "satellite": "satellite_reconstructed_map.png",
+    "thermal": "thermal_reconstructed_map.png"
 }
 
 output_dir = "new_tiles"
@@ -72,3 +72,4 @@ for key in tile_coords:
     with open(json_path, 'w') as f:
         json.dump(tile_coords[key], f, indent=4)
     print(f"✅ Saved tile coordinates for {key} to {json_path}")
+
