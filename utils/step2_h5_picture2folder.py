@@ -4,8 +4,8 @@ import numpy as np
 from PIL import Image
 
 # مسیر فایل H5 و پوشه خروجی
-h5_input_path = "G:/dataset/train_database.h5"
-output_dir = 'F:/IDM/utils/satellite_images'
+h5_input_path = "train_database.h5"
+output_dir = 'satellite_images'
 os.makedirs(output_dir, exist_ok=True)
 
 # بارگذاری فایل H5
