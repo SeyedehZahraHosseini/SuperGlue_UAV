@@ -4,7 +4,7 @@ import numpy as np
 from numba import jit, prange
 from tqdm import tqdm
 
-folder_path = "F:/IDM/utils/thermal_images"
+folder_path = "thermal_images"
 image_size = 768
 sigma = 120
 threshold = 15  # تنظیم کنید
